@@ -23,10 +23,5 @@ const Project = g.model('Project', {
 })
 
 export default config({
-    models: {User, Project},
-    auth: {
-        user: auth.user({
-        model: User
-        })
-    }
+    schema:g,
     })
